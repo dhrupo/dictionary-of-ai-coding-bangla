@@ -122,7 +122,10 @@ flowchart TB
   <img src="../assets/svg/context-window-fill.svg" alt="কনটেক্সট উইন্ডো ভরে যাওয়া" width="460">
 </p>
 
-<!-- GIF-PLACEHOLDER: একটা বক্স ধীরে ধীরে টোকেন দিয়ে ভরে যাচ্ছে, ভরে গেলে red হয়ে যাচ্ছে — এমন gif -->
+**🎬 টার্মিনালে দেখো:** কনটেক্সট উইন্ডো ভরে গিয়ে ডাম্ব জোনে —
+<p align="center">
+  <img src="../assets/gifs/context-window.gif" alt="কনটেক্সট উইন্ডো ভরে যাওয়ার অ্যানিমেশন" width="560">
+</p>
 
 ---
 

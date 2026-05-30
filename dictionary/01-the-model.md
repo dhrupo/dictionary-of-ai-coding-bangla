@@ -239,7 +239,10 @@ flowchart LR
 
 </details>
 
-<!-- GIF-PLACEHOLDER: একটা বাক্য টাইপ হওয়ার সাথে সাথে রঙিন token-ব্লকে ভেঙে যাচ্ছে — এমন gif -->
+**🎬 টার্মিনালে দেখো:**
+<p align="center">
+  <img src="../assets/gifs/token-split.gif" alt="টার্মিনালে টোকেন ভাঙার অ্যানিমেশন" width="520">
+</p>
 
 ---
 
@@ -280,7 +283,10 @@ flowchart LR
 
 </details>
 
-<!-- GIF-PLACEHOLDER: কিবোর্ড সাজেশন বার থেকে শব্দ বেছে বেছে বাক্য তৈরি হচ্ছে — এমন gif -->
+**🎬 টার্মিনালে দেখো:** এক টোকেন করে করে বাক্য তৈরি হচ্ছে —
+<p align="center">
+  <img src="../assets/gifs/next-token.gif" alt="নেক্সট-টোকেন প্রেডিকশন অ্যানিমেশন" width="560">
+</p>
 
 ---
 
@@ -325,7 +331,10 @@ flowchart LR
   <img src="../assets/svg/dice.svg" alt="নন-ডিটারমিনিজম: একই প্রশ্নে আলাদা উত্তর" width="460">
 </p>
 
-<!-- GIF-PLACEHOLDER: ছক্কা গড়িয়ে আলাদা আলাদা সংখ্যা উঠছে — এমন gif -->
+**🎬 টার্মিনালে দেখো:** একই প্রম্পট দুবার → দুই উত্তর —
+<p align="center">
+  <img src="../assets/gifs/non-determinism.gif" alt="নন-ডিটারমিনিজম অ্যানিমেশন" width="540">
+</p>
 
 ---
 

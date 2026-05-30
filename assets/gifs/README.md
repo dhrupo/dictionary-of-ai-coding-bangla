@@ -1,42 +1,41 @@
-# 🎬 GIF placeholders
+# 🎬 GIF অ্যানিমেশন
 
-এই ফোল্ডারে অ্যানিমেটেড GIF যোগ করা হবে। প্রতিটা সেকশন ফাইলে যেখানে GIF বসবে, সেখানে একটা
-HTML কমেন্ট রাখা আছে এই ফরম্যাটে:
+এই ফোল্ডারের টার্মিনাল-ডেমো GIF গুলো বানানো হয়েছে [**VHS**](https://github.com/charmbracelet/vhs)
+দিয়ে — `.tape` টেক্সট স্ক্রিপ্ট থেকে। মানে এগুলো **রিপ্রোডিউসিবল**: সোর্স স্ক্রিপ্ট রিপোতেই আছে,
+যে কেউ আবার বানাতে বা বদলাতে পারবে। 🎉
 
-```html
-<!-- GIF-PLACEHOLDER: [কী অ্যানিমেশন বসবে তার বর্ণনা] -->
+## ✅ তৈরি হয়ে গেছে (VHS)
+
+| GIF | কোথায় ব্যবহৃত | সোর্স |
+|---|---|---|
+| `token-split.gif` | সেকশন ১ — টোকেন | [`../vhs/token-split.tape`](../vhs/token-split.tape) |
+| `next-token.gif` | সেকশন ১ — নেক্সট-টোকেন প্রেডিকশন | [`../vhs/next-token.tape`](../vhs/next-token.tape) |
+| `non-determinism.gif` | সেকশন ১ — নন-ডিটারমিনিজম | [`../vhs/non-determinism.tape`](../vhs/non-determinism.tape) |
+| `context-window.gif` | সেকশন ২ — কনটেক্সট উইন্ডো | [`../vhs/context-window.tape`](../vhs/context-window.tape) |
+
+### কীভাবে আবার বানাবে
+
+```bash
+# একবার ইনস্টল করো: vhs + ffmpeg + ttyd
+brew install vhs            # macOS
+
+cd assets/vhs
+vhs token-split.tape        # -> ../gifs/token-split.gif
 ```
 
-GIF বানানো/যোগ হলে কমেন্টটা সরিয়ে এভাবে একটা ছবি বসাও:
+> ⚠️ **নোট:** VHS-এর টার্মিনাল ফন্টে বাংলা গ্লিফ নেই, তাই GIF-এর ভেতরের লেখা ইংরেজিতে (যা আসল
+> AI-কোডিং টার্মিনালের মতোই স্বাভাবিক)। বাংলা ব্যাখ্যা থাকে GIF-এর বাইরে markdown-এ।
 
-```markdown
-<p align="center">
-  <img src="../assets/gifs/<filename>.gif" alt="<বর্ণনা>" width="460">
-</p>
-```
+## 🟡 এখনো বাকি (ঐচ্ছিক, ভবিষ্যতে)
 
-## যেসব GIF দরকার (চেকলিস্ট)
+VHS দিয়ে হয় না এমন চিত্র-অ্যানিমেশন (যেমন গোল্ডফিশ, গাড়ি) — এগুলো আপাতত
+[`../svg/`](../svg/)-তে স্ট্যাটিক SVG হিসেবে আছে। চাইলে পরে এগুলোও অ্যানিমেটেড GIF বানানো যায়:
 
-### সেকশন ১ — মডেল
-- [ ] `model-predict.gif` — মডেল box-এ শব্দ ঢুকছে, পরের শব্দ পপ করে বের হচ্ছে
-- [ ] `parameters-tune.gif` — হাজার হাজার slider একসাথে adjust হচ্ছে
-- [ ] `training-progress.gif` — accuracy bar ধীরে ধীরে ভরে উঠছে
-- [ ] `inference-exam.gif` — পরীক্ষার হলে কলমে দ্রুত উত্তর লেখা
-- [ ] `token-split.gif` — বাক্য টাইপ হওয়ার সাথে রঙিন token-ব্লকে ভাঙছে
-- [ ] `next-token-keyboard.gif` — কিবোর্ড সাজেশন থেকে শব্দ বেছে বাক্য তৈরি
-- [ ] `non-determinism-dice.gif` — ছক্কা গড়িয়ে আলাদা সংখ্যা উঠছে
-- [ ] `provider-restaurant.gif` — অর্ডার → রান্নাঘর → খাবার ফেরত
-- [ ] `harness-engine-car.gif` — একই ইঞ্জিন আলাদা গাড়িতে বসছে
-- [ ] `request-letter-loop.gif` — চিঠি পাঠানো ও উত্তর ফেরত আসার লুপ
-- [ ] `prefix-cache-stamp.gif` — একটা অংশে "cached" স্ট্যাম্প, পরের বার skip
+- [ ] `parameters-tune.gif` — হাজার slider adjust হচ্ছে
+- [ ] `training-progress.gif` — accuracy bar ভরছে
+- [ ] `provider-restaurant.gif` — অর্ডার → রান্নাঘর → খাবার
+- [ ] `request-letter-loop.gif` — চিঠি পাঠানো-আসার লুপ
+- [ ] `prefix-cache-stamp.gif` — "cached" স্ট্যাম্প
+- [ ] `sandbox.gif` — বালির বাক্সে খেলা
 
-### সেকশন ২ — সেশন, কনটেক্সট ও টার্ন
-- [ ] `context-window-fill.gif` — বক্স টোকেনে ভরে যাচ্ছে, ভরলে red
-
-### সেকশন ৩ — টুল ও এনভায়রনমেন্ট
-- [ ] `sandbox-sandbox.gif` — বালির বাক্সে খেলা, বাইরে কিছু হচ্ছে না
-
-### সেকশন ৪ — ভুল করার ধরন
-- [ ] `dumb-zone-meter.gif` — ব্যাটারি/মিটার সবুজ থেকে লাল হচ্ছে যত টোকেন বাড়ছে
-
-> 💡 ফ্রি/রয়্যালটি-ফ্রি GIF সোর্স: [LottieFiles](https://lottiefiles.com/), [Giphy](https://giphy.com/) (লাইসেন্স দেখে নিয়ো), বা নিজে [ScreenStudio](https://www.screen.studio/) / [ezgif](https://ezgif.com/) দিয়ে বানাও।
+> 💡 ফ্রি GIF সোর্স: [LottieFiles](https://lottiefiles.com/), [Giphy](https://giphy.com/) (লাইসেন্স দেখে নিয়ো)।
