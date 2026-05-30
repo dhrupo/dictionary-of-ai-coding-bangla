@@ -315,6 +315,10 @@ flowchart LR
 
 </details>
 
+<p align="center">
+  <img src="../assets/svg/smart-dumb-zone.svg" alt="স্মার্ট জোন থেকে ডাম্ব জোন" width="460">
+</p>
+
 <!-- GIF-PLACEHOLDER: একটা ব্যাটারি/মিটার সবুজ থেকে লাল হয়ে যাচ্ছে যত টোকেন বাড়ছে — এমন gif -->
 
 ---

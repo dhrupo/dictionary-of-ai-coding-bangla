@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 170" font-family="sans-serif">
+  <rect width="460" height="170" rx="12" fill="#0d1117"/>
+  <text x="230" y="26" fill="#8b949e" font-size="13" text-anchor="middle">কনটেক্সট উইন্ডো = সীমিত একটা বাক্স</text>
+  <!-- box 1 empty -->
+  <rect x="40" y="50" width="90" height="90" rx="8" fill="none" stroke="#3fb950" stroke-width="2"/>
+  <rect x="44" y="120" width="82" height="16" fill="#3fb950" opacity="0.5"/>
+  <text x="85" y="158" fill="#3fb950" font-size="11" text-anchor="middle">খালি 🟢</text>
+  <!-- box 2 half -->
+  <rect x="185" y="50" width="90" height="90" rx="8" fill="none" stroke="#d29922" stroke-width="2"/>
+  <rect x="189" y="96" width="82" height="40" fill="#d29922" opacity="0.5"/>
+  <text x="230" y="158" fill="#d29922" font-size="11" text-anchor="middle">অর্ধেক 🟡</text>
+  <!-- box 3 full -->
+  <rect x="330" y="50" width="90" height="90" rx="8" fill="none" stroke="#f85149" stroke-width="2"/>
+  <rect x="334" y="56" width="82" height="80" fill="#f85149" opacity="0.5"/>
+  <text x="375" y="100" fill="#fff" font-size="11" text-anchor="middle">ভরে গেছে!</text>
+  <text x="375" y="158" fill="#f85149" font-size="11" text-anchor="middle">পূর্ণ 🔴</text>
+  <text x="157" y="100" fill="#8b949e" font-size="16">→</text>
+  <text x="302" y="100" fill="#8b949e" font-size="16">→</text>
+</svg>

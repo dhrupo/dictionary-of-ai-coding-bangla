@@ -332,6 +332,10 @@ flowchart TB
 
 </details>
 
+<p align="center">
+  <img src="../assets/svg/sandbox.svg" alt="স্যান্ডবক্স — নিরাপদ বালির বাক্স" width="460">
+</p>
+
 <!-- GIF-PLACEHOLDER: বালির বাক্সে খেলা, বাইরে কিছু হচ্ছে না — এমন gif -->
 
 ---

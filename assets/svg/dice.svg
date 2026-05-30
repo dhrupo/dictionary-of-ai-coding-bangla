@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 160" font-family="sans-serif">
+  <rect width="460" height="160" rx="12" fill="#0d1117"/>
+  <text x="230" y="28" fill="#8b949e" font-size="13" text-anchor="middle">একই প্রশ্ন → প্রতিবার একটু আলাদা উত্তর 🎲</text>
+  <text x="80" y="95" fill="#e6edf3" font-size="13" text-anchor="middle">"একটা গল্প</text>
+  <text x="80" y="113" fill="#e6edf3" font-size="13" text-anchor="middle">বলো"</text>
+  <text x="140" y="100" fill="#8b949e" font-size="18">→</text>
+  <!-- die 1 -->
+  <rect x="175" y="50" width="40" height="40" rx="8" fill="#1f6feb"/>
+  <circle cx="187" cy="62" r="4" fill="#fff"/><circle cx="203" cy="78" r="4" fill="#fff"/>
+  <!-- die 2 -->
+  <rect x="230" y="78" width="40" height="40" rx="8" fill="#3fb950"/>
+  <circle cx="240" cy="88" r="3.5" fill="#fff"/><circle cx="260" cy="88" r="3.5" fill="#fff"/>
+  <circle cx="250" cy="98" r="3.5" fill="#fff"/>
+  <circle cx="240" cy="108" r="3.5" fill="#fff"/><circle cx="260" cy="108" r="3.5" fill="#fff"/>
+  <!-- die 3 -->
+  <rect x="288" y="50" width="40" height="40" rx="8" fill="#f0883e"/>
+  <circle cx="298" cy="60" r="3.5" fill="#fff"/><circle cx="318" cy="60" r="3.5" fill="#fff"/>
+  <circle cx="298" cy="80" r="3.5" fill="#fff"/><circle cx="318" cy="80" r="3.5" fill="#fff"/>
+  <text x="395" y="88" fill="#8b949e" font-size="12" text-anchor="middle">আলাদা ছক্কা,</text>
+  <text x="395" y="106" fill="#8b949e" font-size="12" text-anchor="middle">আলাদা ফল</text>
+  <text x="230" y="145" fill="#a371f7" font-size="12" text-anchor="middle">এটাই Non-determinism — একদম স্বাভাবিক</text>
+</svg>

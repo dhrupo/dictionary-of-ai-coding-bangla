@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 180" font-family="sans-serif">
+  <rect width="460" height="180" rx="12" fill="#0d1117"/>
+  <!-- left: training -->
+  <rect x="16" y="40" width="200" height="120" rx="10" fill="#21262d"/>
+  <text x="116" y="62" fill="#3fb950" font-size="14" text-anchor="middle">📚 Training</text>
+  <text x="116" y="86" fill="#e6edf3" font-size="12" text-anchor="middle">পরীক্ষার জন্য পড়া</text>
+  <text x="116" y="108" fill="#8b949e" font-size="11" text-anchor="middle">একবার হয়</text>
+  <text x="116" y="126" fill="#8b949e" font-size="11" text-anchor="middle">খুব খরুচে 💸</text>
+  <text x="116" y="146" fill="#8b949e" font-size="11" text-anchor="middle">parameter বসে</text>
+  <!-- right: inference -->
+  <rect x="244" y="40" width="200" height="120" rx="10" fill="#21262d"/>
+  <text x="344" y="62" fill="#f0883e" font-size="14" text-anchor="middle">✏️ Inference</text>
+  <text x="344" y="86" fill="#e6edf3" font-size="12" text-anchor="middle">পরীক্ষার হলে উত্তর লেখা</text>
+  <text x="344" y="108" fill="#8b949e" font-size="11" text-anchor="middle">প্রতিবার হয়</text>
+  <text x="344" y="126" fill="#8b949e" font-size="11" text-anchor="middle">প্রতি টোকেনে দাম 💰</text>
+  <text x="344" y="146" fill="#8b949e" font-size="11" text-anchor="middle">parameter ফিক্সড</text>
+  <text x="230" y="26" fill="#8b949e" font-size="13" text-anchor="middle">পড়া একবার · পরীক্ষা বারবার</text>
+</svg>

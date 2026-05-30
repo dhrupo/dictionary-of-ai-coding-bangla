@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 170" font-family="sans-serif">
+  <rect width="460" height="170" rx="12" fill="#0d1117"/>
+  <text x="230" y="28" fill="#8b949e" font-size="13" text-anchor="middle">গোল্ডি 🐠 — স্মৃতি মাত্র ৩ সেকেন্ড!</text>
+  <!-- fishbowl -->
+  <path d="M120 70 q-30 40 0 70 q40 25 80 0 q30 -30 0 -70 z" fill="#1f6feb" opacity="0.25"/>
+  <ellipse cx="160" cy="68" rx="42" ry="10" fill="#1f6feb" opacity="0.35"/>
+  <!-- fish body -->
+  <ellipse cx="158" cy="108" rx="30" ry="20" fill="#f0883e"/>
+  <polygon points="186,108 212,92 212,124" fill="#db6d28"/>
+  <circle cx="146" cy="103" r="4" fill="#0d1117"/>
+  <path d="M150 116 q8 6 16 0" stroke="#0d1117" stroke-width="2" fill="none"/>
+  <!-- thought bubble -->
+  <circle cx="300" cy="60" r="6" fill="#21262d"/>
+  <circle cx="315" cy="50" r="9" fill="#21262d"/>
+  <rect x="320" y="30" width="110" height="42" rx="10" fill="#21262d"/>
+  <text x="375" y="56" fill="#e6edf3" font-size="13" text-anchor="middle">"আগে কী ছিল?? 🤔"</text>
+  <text x="230" y="158" fill="#8b949e" font-size="12" text-anchor="middle">মডেলও তেমন — নতুন চ্যাট = সাদা পাতা</text>
+</svg>

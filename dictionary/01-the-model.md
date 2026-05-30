@@ -55,6 +55,10 @@ flowchart LR
 
 </details>
 
+<p align="center">
+  <img src="../assets/svg/model-numbers.svg" alt="মডেল সংখ্যা দিয়ে পরের শব্দ আন্দাজ করে" width="460">
+</p>
+
 <!-- GIF-PLACEHOLDER: একটা মডেল box-এ শব্দ ঢুকছে আর পরের শব্দ পপ করে বের হচ্ছে — সিম্পল লুপিং gif -->
 
 ---
@@ -183,6 +187,10 @@ flowchart LR
 **উত্তর:** না। শেখা শেষ ট্রেনিং-এ। Inference শুধু সেই শেখা খাটিয়ে উত্তর বানায়।
 
 </details>
+
+<p align="center">
+  <img src="../assets/svg/training-inference.svg" alt="ট্রেনিং বনাম ইনফারেন্স" width="460">
+</p>
 
 <!-- GIF-PLACEHOLDER: পরীক্ষার হলে কলম দিয়ে দ্রুত উত্তর লেখার ছোট gif -->
 
@@ -313,6 +321,10 @@ flowchart LR
 
 </details>
 
+<p align="center">
+  <img src="../assets/svg/dice.svg" alt="নন-ডিটারমিনিজম: একই প্রশ্নে আলাদা উত্তর" width="460">
+</p>
+
 <!-- GIF-PLACEHOLDER: ছক্কা গড়িয়ে আলাদা আলাদা সংখ্যা উঠছে — এমন gif -->
 
 ---
@@ -389,6 +401,10 @@ flowchart TB
 **উত্তর:** ওদের harness আলাদা — আলাদা টুল, আলাদা সিস্টেম প্রম্পট, আলাদা নিয়ম।
 
 </details>
+
+<p align="center">
+  <img src="../assets/svg/harness-car.svg" alt="মডেল ইঞ্জিন, হার্নেস গাড়ি" width="460">
+</p>
 
 <!-- GIF-PLACEHOLDER: একই ইঞ্জিন আলাদা আলাদা গাড়িতে বসছে — এমন gif -->
 
@@ -544,6 +560,10 @@ flowchart LR
 **উত্তর:** যখন request-এর শুরুর অংশ বদলে যায় — যেমন সিস্টেম প্রম্পটে প্রতিবার নতুন তথ্য (সময়) ঢোকানো।
 
 </details>
+
+<p align="center">
+  <img src="../assets/svg/prefix-cache.svg" alt="প্রিফিক্স ক্যাশ সময় ও টাকা বাঁচায়" width="460">
+</p>
 
 <!-- GIF-PLACEHOLDER: একটা অংশে "💾 cached" স্ট্যাম্প পড়ছে, পরের বার সেটা skip হচ্ছে — এমন gif -->
 
