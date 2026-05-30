@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node (in case tooling is added later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.npm/
+
+# Logs & temp
+*.log
+*.tmp
+tmp/
+
+# Personal / AI working files (keep out of the public repo)
+.ai/
+CLAUDE.local.md
+docs/superpowers/

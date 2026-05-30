@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 170" font-family="sans-serif">
+  <rect width="460" height="170" rx="12" fill="#0d1117"/>
+  <text x="230" y="30" fill="#8b949e" font-size="13" text-anchor="middle">একটা শব্দ → কয়েকটা টোকেন</text>
+
+  <!-- simple word: one token -->
+  <text x="60" y="72" fill="#e6edf3" font-size="15" text-anchor="middle">cat</text>
+  <rect x="30" y="82" width="60" height="34" rx="6" fill="#1f6feb" opacity="0.85"/>
+  <text x="60" y="104" fill="#fff" font-size="13" text-anchor="middle">cat</text>
+  <text x="60" y="138" fill="#8b949e" font-size="11" text-anchor="middle">১ টোকেন</text>
+
+  <!-- arrow -->
+  <text x="155" y="104" fill="#8b949e" font-size="20" text-anchor="middle">→</text>
+
+  <!-- long word: three tokens -->
+  <text x="320" y="72" fill="#e6edf3" font-size="15" text-anchor="middle">Hippopotamus</text>
+  <rect x="210" y="82" width="66" height="34" rx="6" fill="#238636" opacity="0.85"/>
+  <text x="243" y="104" fill="#fff" font-size="12" text-anchor="middle">Hip</text>
+  <rect x="282" y="82" width="66" height="34" rx="6" fill="#9e6a03" opacity="0.9"/>
+  <text x="315" y="104" fill="#fff" font-size="12" text-anchor="middle">popo</text>
+  <rect x="354" y="82" width="76" height="34" rx="6" fill="#8957e5" opacity="0.9"/>
+  <text x="392" y="104" fill="#fff" font-size="12" text-anchor="middle">tamus</text>
+  <text x="320" y="138" fill="#8b949e" font-size="11" text-anchor="middle">৩ টোকেন</text>
+</svg>
