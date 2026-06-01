@@ -3,7 +3,7 @@
 > পুরো ছবিটা এক জায়গায়। উপরে আছে **কনসেপ্ট ম্যাপ** — সব শব্দ একে অন্যের সাথে কীভাবে জড়িত।
 > নিচে আছে **চিট-শিট** — ৬২টি শব্দের এক-লাইনের মানে, দ্রুত রিভিশনের জন্য। 🚀
 
-[⬅️ মূল পাতায় ফিরে যাও](../README.md)
+[⬅️ মূল পাতায় ফিরুন](../README.md)
 
 ---
 
@@ -66,7 +66,7 @@ flowchart TD
 | [Model provider](01-the-model.md#মডেল-প্রোভাইডার-model-provider) | মডেল প্রোভাইডার | যে মডেল চালায় (Anthropic, Ollama...) |
 | [Harness](01-the-model.md#হার্নেস-harness) | হার্নেস | মডেলকে এজেন্ট বানায় (টুল+প্রম্পট+পারমিশন) |
 | [Model provider request](01-the-model.md#মডেল-প্রোভাইডার-রিকোয়েস্ট-model-provider-request) | রিকোয়েস্ট | প্রোভাইডারে একবার যাওয়া-আসা |
-| [Input tokens](01-the-model.md#ইনপুট-টোকেন-input-tokens) | ইনপুট টোকেন | যা পাঠাও (সস্তা) |
+| [Input tokens](01-the-model.md#ইনপুট-টোকেন-input-tokens) | ইনপুট টোকেন | যা পাঠান (সস্তা) |
 | [Output tokens](01-the-model.md#আউটপুট-টোকেন-output-tokens) | আউটপুট টোকেন | যা মডেল বানায় (দামি) |
 | [Prefix cache](01-the-model.md#প্রিফিক্স-ক্যাশ-prefix-cache) | প্রিফিক্স ক্যাশ | শুরুটা আবার কাজ না করার চালাকি |
 | [Cache tokens](01-the-model.md#ক্যাশ-টোকেন-cache-tokens) | ক্যাশ টোকেন | আগে থেকে জমানো সস্তা টোকেন |
@@ -78,7 +78,7 @@ flowchart TD
 | [Context](02-sessions-context-turns.md#কনটেক্সট-context) | কনটেক্সট | এখন হাতে থাকা দরকারি তথ্য |
 | [Context window](02-sessions-context-turns.md#কনটেক্সট-উইন্ডো-context-window) | কনটেক্সট উইন্ডো | মডেলের দেখার একমাত্র সীমিত জানালা |
 | [Stateful](02-sessions-context-turns.md#স্টেটফুল-stateful) | স্টেটফুল | আগের তথ্য বয়ে নেয় (harness দিয়ে) |
-| [Agent](02-sessions-context-turns.md#এজেন্ট-agent) | এজেন্ট | মডেল+হার্নেস, যার সাথে কথা বলো |
+| [Agent](02-sessions-context-turns.md#এজেন্ট-agent) | এজেন্ট | মডেল+হার্নেস, যার সঙ্গে কথা বলেন |
 | [System prompt](02-sessions-context-turns.md#সিস্টেম-প্রম্পট-system-prompt) | সিস্টেম প্রম্পট | এজেন্টের স্থায়ী ডিউটি চার্ট |
 | [Session](02-sessions-context-turns.md#সেশন-session) | সেশন | একটানা এক কথোপকথনের পর্ব |
 | [Turn](02-sessions-context-turns.md#টার্ন-turn) | টার্ন | এক প্রশ্ন-উত্তর পর্ব (Session>Turn>Request) |
@@ -145,4 +145,4 @@ flowchart TD
 
 ---
 
-[⬅️ মূল পাতায় ফিরে যাও](../README.md) · [সেকশন ১ থেকে শুরু করো ➡️](01-the-model.md)
+[⬅️ মূল পাতায় ফিরুন](../README.md) · [সেকশন ১ থেকে শুরু করুন ➡️](01-the-model.md)
