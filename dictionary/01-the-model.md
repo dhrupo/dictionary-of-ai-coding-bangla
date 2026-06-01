@@ -63,7 +63,10 @@ flowchart LR
 
 </details>
 
-<!-- GIF-PLACEHOLDER: হাজার হাজার slider একসাথে adjust হচ্ছে — satisfying gif -->
+**🎬 টার্মিনালে দেখুন:** ট্রেনিংয়ে weight-গুলো নড়তে নড়তে থিতু হচ্ছে —
+<p align="center">
+  <img src="../assets/gifs/parameters.gif" alt="ট্রেনিংয়ের সময় প্যারামিটার-স্লাইডারগুলো ঠিক জায়গায় বসছে" width="540">
+</p>
 
 ---
 
@@ -116,7 +119,10 @@ flowchart LR
   <img src="../assets/svg/training-inference.svg" alt="ট্রেনিং বনাম ইনফারেন্স" width="460">
 </p>
 
-<!-- GIF-PLACEHOLDER: পরীক্ষার হলে কলম দিয়ে দ্রুত উত্তর লেখার ছোট gif -->
+**🎬 টার্মিনালে দেখুন:** ট্রেনিং একবার, কিন্তু inference চলে প্রতিবার — প্রতি টোকেনে দাম —
+<p align="center">
+  <img src="../assets/gifs/inference.gif" alt="ট্রেনিং একবার, ইনফারেন্স প্রতিবার চলে আর প্রতি টোকেনে দাম গোনে" width="560">
+</p>
 
 ---
 
@@ -221,7 +227,10 @@ flowchart LR
 
 </details>
 
-<!-- GIF-PLACEHOLDER: রেস্টুরেন্টে অর্ডার → রান্নাঘর → খাবার ফেরত — ছোট gif -->
+**🎬 টার্মিনালে দেখুন:** অর্ডার → রান্নাঘর (প্রোভাইডার) → খাবার ফেরত —
+<p align="center">
+  <img src="../assets/gifs/provider-restaurant.gif" alt="অর্ডার হার্নেস হয়ে প্রোভাইডারে যায়, রান্না হয়ে উত্তর ফেরে" width="600">
+</p>
 
 ---
 
