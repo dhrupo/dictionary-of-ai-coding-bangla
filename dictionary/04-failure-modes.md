@@ -196,7 +196,10 @@ flowchart LR
   <img src="../assets/svg/smart-dumb-zone.svg" alt="স্মার্ট জোন থেকে ডাম্ব জোন" width="460">
 </p>
 
-<!-- GIF-PLACEHOLDER: একটা ব্যাটারি/মিটার সবুজ থেকে লাল হয়ে যাচ্ছে যত টোকেন বাড়ছে — এমন gif -->
+**🎬 টার্মিনালে দেখুন:** কনটেক্সট বাড়ার সঙ্গে কোয়ালিটি মিটার নামছে —
+<p align="center">
+  <img src="../assets/gifs/smart-dumb-zone.gif" alt="টোকেন বাড়ার সঙ্গে স্মার্ট জোন থেকে ডাম্ব জোনে নামছে" width="600">
+</p>
 
 ---
 

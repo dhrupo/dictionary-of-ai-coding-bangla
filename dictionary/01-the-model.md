@@ -39,7 +39,10 @@ flowchart LR
   <img src="../assets/svg/model-numbers.svg" alt="মডেল সংখ্যা দিয়ে পরের শব্দ আন্দাজ করে" width="460">
 </p>
 
-<!-- GIF-PLACEHOLDER: একটা মডেল box-এ শব্দ ঢুকছে আর পরের শব্দ পপ করে বের হচ্ছে — সিম্পল লুপিং gif -->
+**🎬 টার্মিনালে দেখুন:** মডেল পরের শব্দের সম্ভাবনা মেপে একটা বেছে নিচ্ছে —
+<p align="center">
+  <img src="../assets/gifs/model-predict.gif" alt="মডেল পরের টোকেনের সম্ভাবনা মেপে বেছে নিচ্ছে" width="560">
+</p>
 
 ---
 
@@ -85,7 +88,10 @@ flowchart LR
 
 </details>
 
-<!-- GIF-PLACEHOLDER: accuracy bar ধীরে ধীরে ভরে উঠছে — progress gif -->
+**🎬 টার্মিনালে দেখুন:** অ্যাকুরেসি বার ভরছে, শেষে প্যারামিটার ফ্রিজ —
+<p align="center">
+  <img src="../assets/gifs/training.gif" alt="ট্রেনিংয়ে অ্যাকুরেসি বার ভরে উঠছে" width="560">
+</p>
 
 ---
 
@@ -249,7 +255,10 @@ flowchart TB
   <img src="../assets/svg/harness-car.svg" alt="মডেল ইঞ্জিন, হার্নেস গাড়ি" width="460">
 </p>
 
-<!-- GIF-PLACEHOLDER: একই ইঞ্জিন আলাদা আলাদা গাড়িতে বসছে — এমন gif -->
+**🎬 টার্মিনালে দেখুন:** একই মডেল, আলাদা হার্নেস → আলাদা এজেন্ট —
+<p align="center">
+  <img src="../assets/gifs/harness.gif" alt="একই মডেল আলাদা হার্নেসে আলাদা আচরণ করছে" width="560">
+</p>
 
 ---
 
@@ -277,7 +286,10 @@ sequenceDiagram
 
 </details>
 
-<!-- GIF-PLACEHOLDER: চিঠি পাঠানো ও উত্তর ফেরত আসার বারবার লুপ — এমন gif -->
+**🎬 টার্মিনালে দেখুন:** একটা প্রশ্ন → অনেকগুলো রিকোয়েস্ট, প্রতিবার পুরো গল্প আবার —
+<p align="center">
+  <img src="../assets/gifs/provider-request.gif" alt="একটা প্রশ্নে বহুবার রিকোয়েস্ট, প্রতিবার পুরো সেশন আবার পাঠানো" width="580">
+</p>
 
 ---
 
@@ -340,7 +352,10 @@ flowchart LR
   <img src="../assets/svg/prefix-cache.svg" alt="প্রিফিক্স ক্যাশ সময় ও টাকা বাঁচায়" width="460">
 </p>
 
-<!-- GIF-PLACEHOLDER: একটা অংশে "💾 cached" স্ট্যাম্প পড়ছে, পরের বার সেটা skip হচ্ছে — এমন gif -->
+**🎬 টার্মিনালে দেখুন:** দ্বিতীয় রিকোয়েস্টে শুরুটা cached, দাম পড়ে গেল —
+<p align="center">
+  <img src="../assets/gifs/prefix-cache.gif" alt="প্রিফিক্স ক্যাশ হিট করায় খরচ অনেক কমে গেল" width="580">
+</p>
 
 ---
 

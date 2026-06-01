@@ -205,7 +205,10 @@ flowchart TB
   <img src="../assets/svg/sandbox.svg" alt="স্যান্ডবক্স — নিরাপদ বালির বাক্স" width="460">
 </p>
 
-<!-- GIF-PLACEHOLDER: বালির বাক্সে খেলা, বাইরে কিছু হচ্ছে না — এমন gif -->
+**🎬 টার্মিনালে দেখুন:** স্যান্ডবক্সে সর্বনাশা কমান্ড, তবু হোস্ট নিরাপদ —
+<p align="center">
+  <img src="../assets/gifs/sandbox.gif" alt="স্যান্ডবক্সের ভেতরে rm -rf চললেও বাইরের মেশিন অক্ষত" width="540">
+</p>
 
 ---
 
