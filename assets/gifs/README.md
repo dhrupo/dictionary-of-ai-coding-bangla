@@ -9,11 +9,14 @@
 | GIF | কোথায় ব্যবহৃত | সোর্স |
 |---|---|---|
 | `model-predict.gif` | সেকশন ১ — মডেল | [`../vhs/model-predict.tape`](../vhs/model-predict.tape) |
+| `parameters.gif` | সেকশন ১ — প্যারামিটার | [`../vhs/parameters.tape`](../vhs/parameters.tape) |
 | `training.gif` | সেকশন ১ — ট্রেনিং | [`../vhs/training.tape`](../vhs/training.tape) |
+| `inference.gif` | সেকশন ১ — ইনফারেন্স | [`../vhs/inference.tape`](../vhs/inference.tape) |
 | `token-split.gif` | সেকশন ১ — টোকেন | [`../vhs/token-split.tape`](../vhs/token-split.tape) |
 | `next-token.gif` | সেকশন ১ — নেক্সট-টোকেন প্রেডিকশন | [`../vhs/next-token.tape`](../vhs/next-token.tape) |
 | `non-determinism.gif` | সেকশন ১ — নন-ডিটারমিনিজম | [`../vhs/non-determinism.tape`](../vhs/non-determinism.tape) |
 | `harness.gif` | সেকশন ১ — হার্নেস | [`../vhs/harness.tape`](../vhs/harness.tape) |
+| `provider-restaurant.gif` | সেকশন ১ — মডেল প্রোভাইডার | [`../vhs/provider-restaurant.tape`](../vhs/provider-restaurant.tape) |
 | `provider-request.gif` | সেকশন ১ — মডেল প্রোভাইডার রিকোয়েস্ট | [`../vhs/provider-request.tape`](../vhs/provider-request.tape) |
 | `prefix-cache.gif` | সেকশন ১ — প্রিফিক্স ক্যাশ | [`../vhs/prefix-cache.tape`](../vhs/prefix-cache.tape) |
 | `context-window.gif` | সেকশন ২ — কনটেক্সট উইন্ডো | [`../vhs/context-window.tape`](../vhs/context-window.tape) |
@@ -33,13 +36,8 @@ vhs token-split.tape        # -> ../gifs/token-split.gif
 > ⚠️ **নোট:** VHS-এর টার্মিনাল ফন্টে বাংলা গ্লিফ নেই, তাই GIF-এর ভেতরের লেখা ইংরেজিতে (যা আসল
 > AI-কোডিং টার্মিনালের মতোই স্বাভাবিক)। বাংলা ব্যাখ্যা থাকে GIF-এর বাইরে markdown-এ।
 
-## 🟡 এখনো বাকি (ঐচ্ছিক, ভবিষ্যতে)
+## 🟢 প্লেসহোল্ডার বাকি নেই
 
-কয়েকটা ধারণা টার্মিনালের চেয়ে চিত্র-অ্যানিমেশনে বেশি মানায় (গোল্ডফিশ, গাড়ি, রেস্টুরেন্ট) —
-এগুলো আপাতত [`../svg/`](../svg/)-তে স্ট্যাটিক SVG হিসেবে আছে। চাইলে পরে এগুলোও GIF বানানো যায়:
-
-- [ ] `parameters-tune.gif` — হাজার slider একসঙ্গে adjust হচ্ছে
-- [ ] `inference-exam.gif` — পরীক্ষার হলে দ্রুত উত্তর লেখা
-- [ ] `provider-restaurant.gif` — অর্ডার → রান্নাঘর → খাবার ফেরত
-
-> 💡 ফ্রি GIF সোর্স: [LottieFiles](https://lottiefiles.com/), [Giphy](https://giphy.com/) (লাইসেন্স দেখে নেবেন)।
+ডিকশনারির সব GIF-প্লেসহোল্ডার এখন VHS টার্মিনাল-ডেমো দিয়ে পূরণ করা। কোনো নতুন শব্দে GIF যোগ
+করতে চাইলে: `assets/vhs/scripts/`-এ একটা ছোট ANSI bash স্ক্রিপ্ট লিখুন, পাশে একটা `.tape` রাখুন,
+`vhs <name>.tape` চালান, তারপর সংশ্লিষ্ট সেকশনে এমবেড করুন।
