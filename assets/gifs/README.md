@@ -22,6 +22,10 @@
 | `context-window.gif` | সেকশন ২ — কনটেক্সট উইন্ডো | [`../vhs/context-window.tape`](../vhs/context-window.tape) |
 | `sandbox.gif` | সেকশন ৩ — স্যান্ডবক্স | [`../vhs/sandbox.tape`](../vhs/sandbox.tape) |
 | `smart-dumb-zone.gif` | সেকশন ৪ — স্মার্ট জোন | [`../vhs/smart-dumb-zone.tape`](../vhs/smart-dumb-zone.tape) |
+| `slash-commands.gif` | হাতে-কলমে ১ — /compact | [`../vhs/slash-commands.tape`](../vhs/slash-commands.tape) |
+| `plan-mode.gif` | হাতে-কলমে ১ — প্ল্যান মোড | [`../vhs/plan-mode.tape`](../vhs/plan-mode.tape) |
+| `folder-tree.gif` | হাতে-কলমে ২ — ফোল্ডার স্ট্রাকচার | [`../vhs/folder-tree.tape`](../vhs/folder-tree.tape) |
+| `handoff.gif` | হাতে-কলমে ৪ — হ্যান্ডঅফ | [`../vhs/handoff.tape`](../vhs/handoff.tape) |
 
 ### কীভাবে আবার বানাবেন
 
