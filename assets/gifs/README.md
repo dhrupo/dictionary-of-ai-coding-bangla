@@ -26,6 +26,14 @@
 | `plan-mode.gif` | হাতে-কলমে ১ — প্ল্যান মোড | [`../vhs/plan-mode.tape`](../vhs/plan-mode.tape) |
 | `folder-tree.gif` | হাতে-কলমে ২ — ফোল্ডার স্ট্রাকচার | [`../vhs/folder-tree.tape`](../vhs/folder-tree.tape) |
 | `handoff.gif` | হাতে-কলমে ৪ — হ্যান্ডঅফ | [`../vhs/handoff.tape`](../vhs/handoff.tape) |
+| `esc-interrupt.gif` | হাতে-কলমে ১ — ESC (থামানো) | [`../vhs/esc-interrupt.tape`](../vhs/esc-interrupt.tape) |
+| `bad-good-prompt.gif` | হাতে-কলমে ৩ — ফাইলের ঠিকানা দিন | [`../vhs/bad-good-prompt.tape`](../vhs/bad-good-prompt.tape) |
+| `tdd-cycle.gif` | হাতে-কলমে ৪ — টেস্ট-ড্রিভেন ডেভেলপমেন্ট | [`../vhs/tdd-cycle.tape`](../vhs/tdd-cycle.tape) |
+| `subagent.gif` | হাতে-কলমে ৪ — সাবএজেন্ট-ড্রিভেন ডেভেলপমেন্ট | [`../vhs/subagent.tape`](../vhs/subagent.tape) |
+| `temperature.gif` | হাতে-কলমে ৫ — টেম্পারেচার | [`../vhs/temperature.tape`](../vhs/temperature.tape) |
+| `rag.gif` | হাতে-কলমে ৫ — RAG | [`../vhs/rag.tape`](../vhs/rag.tape) |
+| `cache-hit.gif` | হাতে-কলমে ৬ — ক্যাশ-বান্ধব অভ্যাস | [`../vhs/cache-hit.tape`](../vhs/cache-hit.tape) |
+| `prompt-injection.gif` | হাতে-কলমে ৭ — প্রম্পট ইনজেকশন | [`../vhs/prompt-injection.tape`](../vhs/prompt-injection.tape) |
 
 ### কীভাবে আবার বানাবেন
 

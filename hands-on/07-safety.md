@@ -65,6 +65,11 @@ flowchart LR
 
 </details>
 
+**🎬 টার্মিনালে দেখুন:** ইস্যুর ভেতরে লুকানো নির্দেশ "ডেটা" হিসেবে ধরা পড়ে; sandbox + permission gate বিপজ্জনক কমান্ড আটকে আগে মানুষকে জিজ্ঞেস করে —
+<p align="center">
+  <img src="../assets/gifs/prompt-injection.gif" alt="GitHub ইস্যুতে লুকানো নির্দেশ ডেটা হিসেবে শনাক্ত, sandbox ও permission gate তা আটকাচ্ছে" width="560">
+</p>
+
 ---
 
 ### Sandbox ও permission আবার দেখুন (Sandbox & permissions recap)
