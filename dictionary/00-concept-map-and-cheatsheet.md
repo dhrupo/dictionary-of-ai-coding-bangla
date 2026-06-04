@@ -1,7 +1,7 @@
 # 🗺️ কনসেপ্ট ম্যাপ ও চিট-শিট (Cheat Sheet)
 
 > পুরো ছবিটা এক জায়গায় ধরা থাকল। উপরে **কনসেপ্ট ম্যাপ** — কোন শব্দ কার সঙ্গে কীভাবে জড়িয়ে,
-> তার নকশা। আর নিচে **চিট-শিট** — ৬২টা শব্দের এক-লাইনের মানে, চট করে রিভিশন দেওয়ার জন্য। 🚀
+> তার নকশা। আর নিচে **চিট-শিট** — ৬২+১৭টা শব্দের এক-লাইনের মানে, চট করে রিভিশন দেওয়ার জন্য। 🚀
 
 [⬅️ মূল পাতায় ফিরুন](../README.md)
 
@@ -33,16 +33,22 @@ flowchart TD
     Agent -->|মনে রাখতে| Mem["🧠💾 Memory System"]
     Mem -->|steer করে| AgentsMd["📌 AGENTS.md / Skill"]
 
+    AgentsMd -->|ফাইল হিসেবে| SlashCmd["⚡ Slash/Custom command"]
+    SlashCmd --> SkillsNode["🎒 জনপ্রিয় স্কিল"]
+    SkillsNode --> Handoff
+
     classDef sec1 fill:#1f6feb,color:#fff,stroke:#388bfd;
     classDef sec2 fill:#238636,color:#fff,stroke:#3fb950;
     classDef sec3 fill:#9e6a03,color:#fff,stroke:#d29922;
     classDef sec4 fill:#da3633,color:#fff,stroke:#f85149;
     classDef sec5 fill:#8957e5,color:#fff,stroke:#a371f7;
+    classDef sec6 fill:#bf4b8a,color:#fff,stroke:#e85aad;
     class Train,Param,Model,Infer,NTP,Token,Harness sec1;
     class Agent,Turn,Session,CW sec2;
     class Tool,Env sec3;
     class Dumb,Hallu sec4;
     class Handoff,Mem,AgentsMd sec5;
+    class SlashCmd,SkillsNode sec6;
 ```
 
 > 💡 **এক বাক্যে গল্পটা:** *Training* সংখ্যা (*Parameters*) বসিয়ে *Model* বানায়; *Harness* তাকে
@@ -51,7 +57,7 @@ flowchart TD
 
 ---
 
-## 📋 চিট-শিট — ৬২টি শব্দের এক-লাইনের মানে
+## 📋 চিট-শিট — ৬২+১৭টা শব্দের এক-লাইনের মানে
 
 ### 🧠 সেকশন ১ — মডেল
 | English | বাংলা | এক লাইনে |
@@ -142,6 +148,27 @@ flowchart TD
 | [Vibe coding](07-patterns-of-work.md#ভাইব-কোডিং-vibe-coding) | ভাইব কোডিং | রিভিউ ছাড়া কোড মেনে নেওয়া |
 | [Design concept](07-patterns-of-work.md#ডিজাইন-কনসেপ্ট-design-concept) | ডিজাইন কনসেপ্ট | কী বানানো হচ্ছে তার ভাগ করা বোঝাপড়া |
 | [Grilling](07-patterns-of-work.md#গ্রিলিং-grilling) | গ্রিলিং | কোডের আগে প্রশ্ন করে বোঝাপড়া পাকা করা |
+
+### 🛠️ পার্ট ২ — নতুন শব্দ
+| English | বাংলা | এক লাইনে |
+|---|---|---|
+| [Slash command](../hands-on/05-new-terms.md#স্ল্যাশ-কমান্ড-slash-command) | স্ল্যাশ কমান্ড | `/`-নির্দেশ, মডেলে নয় — হার্নেস ধরে চালায় |
+| [Custom command](../hands-on/05-new-terms.md#কাস্টম-কমান্ড-custom-command) | কাস্টম কমান্ড | `.claude/commands/`-এ নিজের বানানো slash command |
+| [Plan mode](../hands-on/05-new-terms.md#প্ল্যান-মোড-plan-mode) | প্ল্যান মোড | আগে প্ল্যান দেখায়, পছন্দ হলে তবেই কোড |
+| [Checkpoint / Rewind](../hands-on/05-new-terms.md#চেকপয়েন্ট--রিওয়াইন্ড-checkpoint--rewind) | চেকপয়েন্ট / রিওয়াইন্ড | প্রতি ধাপে সেভ, ভুলে আগের পয়েন্টে ⏪ ফেরা |
+| [Hooks](../hands-on/05-new-terms.md#হুক-hooks) | হুক | নির্দিষ্ট ঘটনায় নিজে-নিজে চলা স্ক্রিপ্ট |
+| [Git worktree](../hands-on/05-new-terms.md#গিট-ওয়ার্কট্রি-git-worktree) | গিট ওয়ার্কট্রি | একাধিক working কপি, এজেন্টরা পাশাপাশি নিরাপদে |
+| [Headless mode](../hands-on/05-new-terms.md#হেডলেস-মোড-headless-mode) | হেডলেস মোড | UI ছাড়া স্ক্রিপ্ট/CI থেকে এজেন্ট চালানো |
+| [Background agent](../hands-on/05-new-terms.md#ব্যাকগ্রাউন্ড-এজেন্ট-background-agent) | ব্যাকগ্রাউন্ড এজেন্ট | পেছনে চলা এজেন্ট (ধরন বোঝাতে AFK-ই ভালো) |
+| [Thinking tokens](../hands-on/05-new-terms.md#থিংকিং-টোকেন-thinking-tokens) | থিংকিং টোকেন | মডেলের খসড়া ভাবনা, output হিসেবে দাম লাগে |
+| [Temperature](../hands-on/05-new-terms.md#টেম্পারেচার-temperature) | টেম্পারেচার | উত্তরের "দুঃসাহস" নব (কম=সাবধানী, বেশি=এলোমেলো) |
+| [RAG](../hands-on/05-new-terms.md#rag) | RAG | আগে খুঁজে আনো, তারপর উত্তর (ওপেন-বুক পরীক্ষা) |
+| [Embedding](../hands-on/05-new-terms.md#এমবেডিং-embedding) | এমবেডিং | লেখাকে অর্থ-ঠিকানায় বদলানো; কাছের ঠিকানা=কাছের মানে |
+| [Fine-tuning](../hands-on/05-new-terms.md#ফাইন-টিউনিং-fine-tuning) | ফাইন-টিউনিং | প্যারামিটার আবার নাড়ানো; প্রায়ই RAG/context সস্তা |
+| [Streaming](../hands-on/05-new-terms.md#স্ট্রিমিং-streaming) | স্ট্রিমিং | টোকেন তৈরি হওয়া-মাত্র পর্দায় দেখানো |
+| [Plugin](../hands-on/05-new-terms.md#প্লাগইন-plugin) | প্লাগইন | কমান্ড+স্কিল+এজেন্টের এক-প্যাকেট |
+| [Marketplace](../hands-on/05-new-terms.md#মার্কেটপ্লেস-marketplace) | মার্কেটপ্লেস | প্লাগইনের দোকান (community-শেয়ার) |
+| [SKILL.md](../hands-on/05-new-terms.md#skillmd) | SKILL.md | স্কিলের রেসিপি (name + description-trigger + ধাপ) |
 
 ---
 
