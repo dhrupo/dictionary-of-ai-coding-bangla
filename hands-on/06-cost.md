@@ -56,6 +56,11 @@
 
 </details>
 
+**🎬 টার্মিনালে দেখুন:** শুরুটা একই থাকলে cache হিট (সস্তা, দ্রুত); AGENTS.md এডিট করলেই prefix বদলে cache মিস — গোটা শুরু আবার দাম দিয়ে প্রসেস —
+<p align="center">
+  <img src="../assets/gifs/cache-hit.gif" alt="স্থির prefix-এ cache হিট, AGENTS.md এডিট করলে cache মিস ও পুরো রি-প্রসেস" width="560">
+</p>
+
 ---
 
 ### খরচ কমানোর চেকলিস্ট (Cost-saving checklist)
