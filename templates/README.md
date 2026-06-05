@@ -1,0 +1,22 @@
+<!-- কী: এই ফোল্ডারের স্টার্টার ফাইলগুলোর সূচি | কোথায় শেখানো: hands-on/02-folder-structure.md, hands-on/04-popular-skills.md | ব্যবহার: এই ফাইলটা পড়ে দরকারি টেমপ্লেটটা বেছে নিন -->
+
+# 📦 টেমপ্লেট — কপি-পেস্ট স্টার্টার কিট
+
+এই ফোল্ডারের ফাইলগুলো কপি করেই নিজের প্রজেক্টে ব্যবহার করুন।
+হাতে-কলমে সেকশনগুলোতে যে স্টার্টার-ফাইলের *টুকরো* দেখানো হয়েছে, সেগুলোর পুরো, কপি-করার-মতো রূপ এখানে।
+ফাঁকা জায়গাগুলো (`<...>`) নিজের প্রজেক্টের তথ্য দিয়ে ভরে নিন।
+
+| ফাইল | কী | কোথায় কপি করবেন |
+| --- | --- | --- |
+| [AGENTS.md](AGENTS.md) | এজেন্টের "চিরকুট" — প্রতি সেশনে পড়া হয় | প্রজেক্টের গোড়ায় (`./AGENTS.md`) |
+| [handoff-artifact.md](handoff-artifact.md) | সেশন শেষের হ্যান্ডঅফ আর্টিফ্যাক্ট টেমপ্লেট | `docs/specs/handoff-YYYY-MM-DD.md` |
+| [.claude/commands/handoff.md](.claude/commands/handoff.md) | `/handoff` স্ল্যাশ কমান্ড | `.claude/commands/handoff.md` |
+| [.claude/skills/bangla-commit/SKILL.md](.claude/skills/bangla-commit/SKILL.md) | বাংলা কমিট মেসেজ স্কিল | `.claude/skills/bangla-commit/SKILL.md` |
+
+---
+
+**আরও পড়ুন:**
+
+- [হাতে-কলমে ২](../hands-on/02-folder-structure.md) — AI-ফ্রেন্ডলি ফোল্ডার স্ট্রাকচার (AGENTS.md কোথায়, কী)
+- [হাতে-কলমে ৪](../hands-on/04-popular-skills.md) — জনপ্রিয় স্কিল ও ওয়ার্কফ্লো (`/handoff`, SKILL.md, আর্টিফ্যাক্ট)
+- [গল্পে দেখুন: অধ্যায় ২](../story/02-the-plan.md)
