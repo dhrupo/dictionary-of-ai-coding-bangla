@@ -96,4 +96,8 @@ cd assets/vhs && vhs your.tape
 এই প্রজেক্ট Matt Pocock-এর [Dictionary of AI Coding](https://github.com/mattpocock/dictionary-of-ai-coding)
 থেকে অনুপ্রাণিত। লাইসেন্স: [CC BY 4.0](LICENSE) — কৃতিত্ব দিয়ে স্বাধীনভাবে ব্যবহার/পরিবর্তন করুন।
 
+কোড না লিখেও অবদান রাখতে পারেন — দুটো রেডিমেড issue ফর্ম আছে: **🆕 নতুন শব্দ চাই** (কোনো শব্দ
+যোগ করার অনুরোধ) আর **🐞 ভুল পেয়েছি** (ভুল/ভাঙা লিংক জানানো)। শুধু একটা নতুন
+[Issue](https://github.com/dhrupo/dictionary-of-ai-coding-bangla/issues/new/choose) খুলে বেছে নিন।
+
 প্রশ্ন থাকলে একটা [Issue](https://github.com/dhrupo/dictionary-of-ai-coding-bangla/issues) খুলুন। ধন্যবাদ! 💙
