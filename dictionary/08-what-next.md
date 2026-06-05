@@ -33,6 +33,7 @@
 ## 📚 ধাপ ৩ — আরও গভীরে যেতে চাইলে
 
 - 🛠️ **সবচেয়ে জরুরি:** [পার্ট ২ — হাতে-কলমে](../hands-on/01-cli-commands.md) — শব্দ তো শিখলেন, এবার কমান্ড, ফোল্ডার, স্কিল — সব হাতে-কলমে।
+- 📜 **তারপর গল্পটা পড়ুন:** [পার্ট ৩ — রাফির প্রথম প্রজেক্ট](../story/01-the-dream.md) — শব্দ আর হাতিয়ার সব একসঙ্গে, ছ'টা অধ্যায়ের গল্পে।
 - 🗺️ ভুলে গেলে ফিরে দেখুন: [কনসেপ্ট ম্যাপ ও চিট-শিট](00-concept-map-and-cheatsheet.md)
 - 🇬🇧 ইংরেজি মূল অভিধান ও AI engineering নিয়ে আরও: Matt Pocock-এর [Dictionary of AI Coding](https://github.com/mattpocock/dictionary-of-ai-coding) ও [aihero.dev](https://www.aihero.dev/ai-coding-dictionary)
 - 🧑‍🏫 বন্ধুকে শেখান! কোনো কিছু সত্যিই বুঝেছেন কিনা যাচাইয়ের সবচেয়ে ভালো উপায় — অন্যকে বুঝিয়ে বলা।
