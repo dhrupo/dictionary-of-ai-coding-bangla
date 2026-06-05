@@ -1,0 +1,33 @@
+name: 🐞 ভুল পেয়েছি
+description: কোনো ভুল তথ্য, ভাঙা লিংক, বানান বা অনুবাদের সমস্যা পেলে জানান।
+title: "[ভুল]: "
+labels: ["ভুল"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        চোখে পড়ার জন্য ধন্যবাদ! 🙏 ভুলটা ঠিক করতে নিচের তথ্যগুলো সাহায্য করবে।
+  - type: input
+    id: location
+    attributes:
+      label: কোন ফাইল/সেকশন?
+      description: কোথায় ভুলটা পেয়েছেন — ফাইলের নাম বা সেকশনের শিরোনাম।
+      placeholder: "যেমন: dictionary/04-failure-modes.md → হ্যালুসিনেশন"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: কী ভুল?
+      description: ঠিক কী ভুল মনে হয়েছে, একটু গুছিয়ে লিখুন।
+      placeholder: "যেমন: লিংকটা কাজ করছে না / বানানে ভুল আছে / তথ্যটা ঠিক নয়..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: কী হওয়া উচিত?
+      description: আপনার মতে ঠিক কী হলে ভালো হতো — পরামর্শ থাকলে দিন।
+      placeholder: "যেমন: এখানে আসলে লেখা উচিত..."
+    validations:
+      required: false

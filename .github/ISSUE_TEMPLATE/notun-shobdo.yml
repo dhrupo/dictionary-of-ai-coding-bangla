@@ -1,0 +1,33 @@
+name: 🆕 নতুন শব্দ চাই
+description: AI কোডিংয়ের এমন কোনো শব্দ যেটা এখনো এই অভিধানে নেই, সেটা যোগ করার অনুরোধ করুন।
+title: "[নতুন শব্দ]: "
+labels: ["নতুন শব্দ"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ধন্যবাদ! 🎉 কোন শব্দটা যোগ হলে অভিধান আরও কাজে আসবে, নিচে একটু গুছিয়ে বলুন।
+  - type: input
+    id: term
+    attributes:
+      label: শব্দটা কী?
+      description: ইংরেজি টার্ম (আর জানা থাকলে বাংলা উচ্চারণ)।
+      placeholder: "যেমন: Tool call (টুল কল)"
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: কোথায় শুনেছেন/পড়েছেন?
+      description: কোন টুল, ভিডিও, ডক বা আলাপে শব্দটা পেয়েছেন — লিংক থাকলে দিন।
+      placeholder: "যেমন: একটা YouTube টিউটোরিয়ালে / Claude Code-র ডকে..."
+    validations:
+      required: false
+  - type: textarea
+    id: understanding
+    attributes:
+      label: নিজের ভাষায় যা বোঝেন
+      description: শব্দটা নিয়ে আপনার নিজের বোঝাটুকু লিখুন — ভুল হলেও সমস্যা নেই, এটাই শুরু।
+      placeholder: "আমার মনে হয় এটা মানে..."
+    validations:
+      required: false
