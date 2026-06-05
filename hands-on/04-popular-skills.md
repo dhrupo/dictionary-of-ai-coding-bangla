@@ -220,6 +220,8 @@ flowchart LR
 - `docs/specs/the-spec.md`
 ```
 
+> 📁 আসল ফাইল: [templates/handoff-artifact.md](../templates/handoff-artifact.md) · কমান্ডটা: [templates/.claude/commands/handoff.md](../templates/.claude/commands/handoff.md)
+
 মূল কথা: শুধু "কী করেছি" নয়, **"কেন করেছি"**-টাও লিখুন — পরের সেশন সিদ্ধান্তগুলোর পেছনের যুক্তি না জানলে সেগুলো ভেঙে ফেলতে পারে।
 
 #### (গ) কখন `/compact`, কখন `/clear`, কখন `/handoff`
@@ -272,6 +274,8 @@ description: গিট কমিট মেসেজ লেখার সময়
 ৩. দরকার হলে একটা ফাঁকা লাইন দিয়ে নিচে কেন এই বদল, তা ২-৩ লাইনে লেখো।
 ৪. ইংরেজি technical শব্দ (যেমন API, bug) যেমন আছে তেমনই রাখো, জোর করে অনুবাদ কোরো না।
 ```
+
+> 📁 আসল ফাইল: [templates/.claude/skills/bangla-commit/SKILL.md](../templates/.claude/skills/bangla-commit/SKILL.md)
 
 ওপরের `description`-টাই হলো *trigger* — এটা পড়েই এজেন্ট বোঝে কখন এই স্কিলটা টেনে নেবে। আপনি "কমিট করো" বললেই এজেন্ট এই নিয়মগুলো মেনে চলবে, আর তার আগ পর্যন্ত ফাইলটা [কনটেক্সট](../dictionary/02-sessions-context-turns.md#কনটেক্সট-context)-এ জায়গা নষ্ট করে না। `SKILL.md`-এর গঠন নিয়ে আরও বিস্তারিত পরের সেকশনে — [SKILL.md](05-new-terms.md#skillmd)।
 
