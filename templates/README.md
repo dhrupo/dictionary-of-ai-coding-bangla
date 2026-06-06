@@ -12,6 +12,7 @@
 | [handoff-artifact.md](handoff-artifact.md) | সেশন শেষের হ্যান্ডঅফ আর্টিফ্যাক্ট টেমপ্লেট | `docs/specs/handoff-YYYY-MM-DD.md` |
 | [.claude/commands/handoff.md](.claude/commands/handoff.md) | `/handoff` স্ল্যাশ কমান্ড | `.claude/commands/handoff.md` |
 | [.claude/skills/bangla-commit/SKILL.md](.claude/skills/bangla-commit/SKILL.md) | বাংলা কমিট মেসেজ স্কিল | `.claude/skills/bangla-commit/SKILL.md` |
+| [.claude/skills/bangla-commit/references/udaharan.md](.claude/skills/bangla-commit/references/udaharan.md) | স্কিলের নমুনা-ফাইল — আরও দরকারে তবেই খোলে | `.claude/skills/bangla-commit/references/udaharan.md` |
 | [.claude/agents/review-bondhu.md](.claude/agents/review-bondhu.md) | উদাহরণ সাবএজেন্ট — কোড রিভিউয়ের আলাদা চোখ | `.claude/agents/review-bondhu.md` |
 | [.claude/rules/code-style.md](.claude/rules/code-style.md) | বিষয়ভিত্তিক নিয়ম-ফাইল — AGENTS.md হালকা রাখার কৌশল | `.claude/rules/code-style.md` |
 | [.claude/hooks/bipod-thamao.sh](.claude/hooks/bipod-thamao.sh) | উদাহরণ hook — বিপজ্জনক কমান্ড আগেই আটকায় | `.claude/hooks/bipod-thamao.sh` (+ `chmod +x`) |
@@ -26,6 +27,7 @@
 └── .claude/
     ├── commands/handoff.md         # ⚡ নিজের স্ল্যাশ কমান্ড
     ├── skills/bangla-commit/       # 🎒 স্কিল — দরকারে খোলে
+    │   └── references/             #    └─ স্কিলের নমুনা — আরও দরকারে খোলে
     ├── agents/review-bondhu.md     # 🤖 সাবএজেন্ট — আলাদা চোখ
     ├── rules/code-style.md         # 📏 ছোট ছোট নিয়ম-ফাইল
     ├── hooks/bipod-thamao.sh       # 🚨 ঘটনার আগে নিজে-নিজে চলা পাহারা
@@ -35,6 +37,17 @@
 > 🧩 এই ভাগাভাগির ধরনটা community-তে বহুল-ব্যবহৃত — যেমন [poshan0126/dotclaude](https://github.com/poshan0126/dotclaude)
 > টেমপ্লেট, যেখানে agents/skills/rules/hooks ঠিক এভাবেই সাজানো। আমরা প্রতিটার একটা করে
 > বাংলা-টীকা-দেওয়া উদাহরণ রেখেছি — কোনটা কী করে, বইয়ের কোন সেকশনে শেখানো হয়েছে, ফাইলের মাথার মন্তব্যেই লেখা।
+
+## 📚 স্কিল জমে গেলে: নিজের স্কিল-লাইব্রেরি
+
+স্কিল বানাতে বানাতে যখন ৮-১০টা হয়ে যাবে, তখন আর প্রতি প্রজেক্টে কপি না করে **আলাদা একটা লাইব্রেরি-রিপো** বানান — টিমের সবাই (বা ভবিষ্যতের আপনি) এক জায়গা থেকেই সব পাবে। চালু ধরনটা এমন:
+
+- **রিপোর গোড়ায়** = চালু স্কিলগুলো (`~/.claude/skills`-এ symlink করলেই সব প্রজেক্টে হাজির)
+- **`_inactive/`** = আপাতত তাকে-তোলা — মুছবেন না, দরকারে ফেরাবেন
+- **`_archived/`** = পুরনো সংস্করণ (`SKILL.md`-কে `SKILL.md.bak` নাম দিলে আর register হয় না)
+- **প্রতি স্কিলে `references/`** = ভারী নমুনা/চেকলিস্ট — উপরের `bangla-commit`-এ যেমনটা দেখলেন
+
+এই ধরনটা নেওয়া [nkb-bd/ff-team-skills](https://github.com/nkb-bd/ff-team-skills) লাইব্রেরি থেকে — সেখানে আরও এক ধাপ ওপরের জিনিসও আছে: *orchestrator* স্কিল, যেটা নিজে এক-একটা ধাপে অন্য স্কিলদের ডেকে পুরো workflow চালায় (সেটা advanced-দের খেলা — আগে নিজের প্রথম পাঁচটা স্কিল হোক 😉)।
 
 ---
 
