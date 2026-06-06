@@ -12,12 +12,35 @@
 | [handoff-artifact.md](handoff-artifact.md) | সেশন শেষের হ্যান্ডঅফ আর্টিফ্যাক্ট টেমপ্লেট | `docs/specs/handoff-YYYY-MM-DD.md` |
 | [.claude/commands/handoff.md](.claude/commands/handoff.md) | `/handoff` স্ল্যাশ কমান্ড | `.claude/commands/handoff.md` |
 | [.claude/skills/bangla-commit/SKILL.md](.claude/skills/bangla-commit/SKILL.md) | বাংলা কমিট মেসেজ স্কিল | `.claude/skills/bangla-commit/SKILL.md` |
+| [.claude/agents/review-bondhu.md](.claude/agents/review-bondhu.md) | উদাহরণ সাবএজেন্ট — কোড রিভিউয়ের আলাদা চোখ | `.claude/agents/review-bondhu.md` |
+| [.claude/rules/code-style.md](.claude/rules/code-style.md) | বিষয়ভিত্তিক নিয়ম-ফাইল — AGENTS.md হালকা রাখার কৌশল | `.claude/rules/code-style.md` |
+| [.claude/hooks/bipod-thamao.sh](.claude/hooks/bipod-thamao.sh) | উদাহরণ hook — বিপজ্জনক কমান্ড আগেই আটকায় | `.claude/hooks/bipod-thamao.sh` (+ `chmod +x`) |
+| [.claude/settings.json](.claude/settings.json) | পারমিশন + hook জুড়ে দেওয়ার ছাঁচ | `.claude/settings.json` |
+
+## 🗂️ পুরো কাঠামোটা এক নজরে
+
+```text
+আমার-প্রজেক্ট/
+├── AGENTS.md                       # 🧠 চিরকুট — প্রতি সেশনে পড়া হয়
+├── docs/specs/handoff-*.md         # 🤝 হ্যান্ডঅফ আর্টিফ্যাক্ট
+└── .claude/
+    ├── commands/handoff.md         # ⚡ নিজের স্ল্যাশ কমান্ড
+    ├── skills/bangla-commit/       # 🎒 স্কিল — দরকারে খোলে
+    ├── agents/review-bondhu.md     # 🤖 সাবএজেন্ট — আলাদা চোখ
+    ├── rules/code-style.md         # 📏 ছোট ছোট নিয়ম-ফাইল
+    ├── hooks/bipod-thamao.sh       # 🚨 ঘটনার আগে নিজে-নিজে চলা পাহারা
+    └── settings.json               # ⚙️ পারমিশন + hook-এর তার-জোড়া
+```
+
+> 🧩 এই ভাগাভাগির ধরনটা community-তে বহুল-ব্যবহৃত — যেমন [poshan0126/dotclaude](https://github.com/poshan0126/dotclaude)
+> টেমপ্লেট, যেখানে agents/skills/rules/hooks ঠিক এভাবেই সাজানো। আমরা প্রতিটার একটা করে
+> বাংলা-টীকা-দেওয়া উদাহরণ রেখেছি — কোনটা কী করে, বইয়ের কোন সেকশনে শেখানো হয়েছে, ফাইলের মাথার মন্তব্যেই লেখা।
 
 ---
 
 > ⚠️ **ছোট্ট সতর্কতা:** এই ফোল্ডারের ভেতরে `.claude/` আছে বলে, এই রিপোটাই কোনো AI কোডিং টুলে খুললে
-> `bangla-commit` স্কিলটা *এই রিপোর জন্যও* চালু হয়ে যেতে পারে — ওটা কিন্তু শুধু উদাহরণ।
-> নিজের প্রজেক্টে কপি করে ব্যবহার করুন, এখানে এটা "জ্যান্ত" ধরে নেবেন না।
+> `bangla-commit` স্কিল বা `review-bondhu` এজেন্টের মতো উদাহরণগুলো *এই রিপোর জন্যও* চালু হয়ে যেতে পারে —
+> ওগুলো কিন্তু শুধু উদাহরণ। নিজের প্রজেক্টে কপি করে ব্যবহার করুন, এখানে এগুলো "জ্যান্ত" ধরে নেবেন না।
 
 **আরও পড়ুন:**
 
