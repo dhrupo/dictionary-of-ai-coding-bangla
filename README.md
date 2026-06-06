@@ -91,6 +91,10 @@ AI দিয়ে কোডিং শিখতে বসলে চারপা�
 - 🛠️ পার্ট ২: CLI কমান্ড, ফোল্ডার স্ট্রাকচার, জনপ্রিয় স্কিল — মূল অভিধানের বাইরের হাতে-কলমে কনটেন্ট
 - 📜 পার্ট ৩: রাফির গল্পে পুরো workflow একসঙ্গে + কপি-করার-মতো templates/
 
+**`templates/` ফোল্ডারের কাঠামো-প্যাটার্নের কৃতিত্ব:**
+- 🧩 [poshan0126/dotclaude](https://github.com/poshan0126/dotclaude) — `.claude/` ফোল্ডারের agents/skills/rules/hooks ভাগাভাগির ধরন
+- 📚 [nkb-bd/ff-team-skills](https://github.com/nkb-bd/ff-team-skills) — স্কিল-লাইব্রেরি ও প্রতি স্কিলে `references/` রাখার প্যাটার্ন
+
 > মূল ইংরেজি অভিধান ও AI engineering নিয়ে আরও শিখতে: [aihero.dev](https://www.aihero.dev/ai-coding-dictionary)
 
 ---
